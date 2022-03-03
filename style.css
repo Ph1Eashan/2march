@@ -1,0 +1,28 @@
+.container {
+ display: flex;
+ margin: auto;
+}
+
+.box {
+ width: 150px;
+ height: 150px;
+ background-color: blue;
+ margin: 10px;
+ color: white;
+ font-size: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+ .container {
+  display: block;
+  margin: auto;
+ }
+
+ .box {
+  width: 200px;
+  height: 200px;
+ }
+}
